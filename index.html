@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="img/logo2.png" type="image/x-icon">
+    <title>APEFYB-UNSCH</title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <a href="#" class="logo">
+                        <img src="img/logo2.png" alt="">
+                    </a>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">JUNTA DIRECTIVA</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTAFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">IX CONAPEFYB</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>CONSEJO DIRECTIVO 2024 - 2025</h2>
+                <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, </p>
+                <a href="#portfolio">mas información</a>
+            </div>
+        </div>
+    </section>
+
+     <!-- SECCION S O B R E M I -->
+     <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/apefybunsch.png" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Que es  <span>APEFYB- UNSCH</span> </h2>
+            <h3>Somos una asociación sin fines de lucro</h3>
+            <p>La Asociación Peruana de Estudiantes de Farmacia y Bioquímica de la Universidad Nacional San Cristóbal de Huamanga 
+                (Apefyb UNSCH) es una Asociación de Conformada por los estudiantes de Farmacia y Bioquímica de la Universidad 
+                Nacional San Cristóbal de Huamanga que tienen la finalidad de contribuir a mejorar el rendimiento académico de 
+                los estudiantes mediante el fortalecimiento de conocimientos, el fomento de liderazgo, la autogestión de los 
+                estudiantes en la construcción de su aprendizaje y aportar con el conocimiento a la sociedad mediante proyección
+                 social, publicación de revistas y la elaboración de investigaciones.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nam a beatae natus.</p>
+            <a href="#">Descargar Estatuto</a>
+        </div>
+    </section>
+    <!-- SECCION S E R V I C I O S -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <h4>Investigación</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>preclínico</li>
+                    <li>descriptivo</li>
+                    <li>revisiones</li>
+                </ul>
+                <p>Realizamos investigaciones con la finalidad de participar en los congresos nacionales e internacionales</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-file-code"></i></span>
+                <h4>Salud pública</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Proyección social</li>
+                    <li>Capacitaciones</li>
+                    <li>investigación</li>
+                </ul>
+                <p>Realizamos eventos de salud pública contribuyendo con el desarrollo de la región de Ayacucho</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-arrow-trend-up"></i></span>
+                <h4>Eventos académicos</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Conferencias</li>
+                    <li>Jornadas</li>
+                    <li>Congresos</li>
+                </ul>
+                <p>I have been providing web design services with great success for 9 years. The client is very happy</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-database"></i></span>
+                <h4>Pasantía de estudiantes</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Nacional</li>
+                    <li>Internacional</li>
+                </ul>
+                <p>Mediante SEP de IPSF brindamos la oportunidad de realizar pasantias nacionales e internacionales</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-palette"></i></span>
+                <h4>Convenios</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Nacional</li>
+                    <li>Internacional</li>
+                </ul>
+                <p>Contamos con convenios nacionales e internacionales para el desarrollo profesional de nuestros socios</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-person-circle-question"></i></span>
+                <h4>Practicas preprofesionales</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Practicas profesionales</li>
+                    <li>puestos laborales</li>
+                </ul>
+                <p>Mediante nuestros convenios brindamos la oportunidad de realizar practicas profesionales y tambien ofrecemos puestos laborales</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION J U N T A D I R E C T I V A -->
+<section id="juntadirectiva">
+    <h3 class="titulo-seccion">JUNTA DIRECTIVA</h3>
+    <div class="contenedor-skills" id="skills">
+        <div class="person" style="--color: #782a2b">
+            <div class="container">
+              <div class="conianer-inner">
+                <div class="circle"></div>
+                <img src="img/image1.png" alt="">
+              </div>
+            </div>
+            <div class="divider"></div>
+            <h1>Rosa Lewis</h1>
+            <p>Presidente</p>
+          </div>
+        
+          <div class="person" style="--color: #37375e">
+            <div class="container">
+              <div class="conianer-inner">
+                <div class="circle"></div>
+                <img src="img/image2.png" alt="">
+              </div>
+            </div>
+            <div class="divider"></div>
+            <h1>John Willis</h1>
+            <p>Vicipresidente</p>
+          </div>
+        
+          <div class="person" style="--color: #3e6e7c">
+            <div class="container">
+              <div class="conianer-inner">
+                <div class="circle"></div>
+                <img src="img/image3.png" alt="">
+              </div>
+            </div>
+            <div class="divider"></div>
+            <h1>Sandy Rogers</h1>
+            <p>secretario</p>
+          </div>
+
+          <div class="person" style="--color: #3e6e7c">
+            <div class="container">
+              <div class="conianer-inner">
+                <div class="circle"></div>
+                <img src="img/image3.png" alt="">
+              </div>
+            </div>
+            <div class="divider"></div>
+            <h1>Sandy Rogers</h1>
+            <p>Tesorero</p>
+          </div>
+
+          <div class="person" style="--color: #3e6e7c">
+            <div class="container">
+              <div class="conianer-inner">
+                <div class="circle"></div>
+                <img src="img/image3.png" alt="">
+              </div>
+            </div>
+            <div class="divider"></div>
+            <h1>Sandy Rogers</h1>
+            <p>Dir. de Investigación</p>
+          </div>
+
+          <div class="person" style="--color: #3e6e7c">
+            <div class="container">
+              <div class="conianer-inner">
+                <div class="circle"></div>
+                <img src="img/image3.png" alt="">
+              </div>
+            </div>
+            <div class="divider"></div>
+            <h1>Sandy Rogers</h1>
+            <p>Dir de salud pública</p>
+          </div>
+
+          <div class="person" style="--color: #3e6e7c">
+            <div class="container">
+              <div class="conianer-inner">
+                <div class="circle"></div>
+                <img src="img/image3.png" alt="">
+              </div>
+            </div>
+            <div class="divider"></div>
+            <h1>Sandy Rogers</h1>
+            <p>LEO</p>
+          </div>
+
+          <div class="person" style="--color: #3e6e7c">
+            <div class="container">
+              <div class="conianer-inner">
+                <div class="circle"></div>
+                <img src="img/image3.png" alt="">
+              </div>
+            </div>
+            <div class="divider"></div>
+            <h1>Sandy Rogers</h1>
+            <p>Dir de eventos académicos</p>
+          </div>
+
+          <div class="person" style="--color: #3e6e7c">
+            <div class="container">
+              <div class="conianer-inner">
+                <div class="circle"></div>
+                <img src="img/image3.png" alt="">
+              </div>
+            </div>
+            <div class="divider"></div>
+            <h1>Sandy Rogers</h1>
+            <p>Dir de comunicaciones</p>
+          </div>
+
+          <div class="person" style="--color: #3e6e7c">
+            <div class="container">
+              <div class="conianer-inner">
+                <div class="circle"></div>
+                <img src="img/image3.png" alt="">
+              </div>
+            </div>
+            <div class="divider"></div>
+            <h1>Sandy Rogers</h1>
+            <p>Dir de recursos humanos</p>
+          </div>
+    </div>
+</SEction>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/campaña.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/conapefyb.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/donación.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/pasantia.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/covid.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/convocatoria.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/apew.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/inicio.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/apoyo.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECCTION C O N T A C T O -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactanos ahora</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo *" class="input-mitad">
+                    <input type="email" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Todos los derechos reservados - 2024</p>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
